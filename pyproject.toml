@@ -13,6 +13,10 @@ psycopg2 = "^2.8.5"
 matplotlib = "^3.2.2"
 seaborn = "^0.11.1"
 missingno = "^0.4.2"
+jupyter_server = "^1.5.1"
+jupyter_contrib_nbextensions = "^0.5.1"
+jupyter = "^1.0.0"
+notebook = "^6.3.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.3"
