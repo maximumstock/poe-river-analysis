@@ -4,12 +4,9 @@ with pkgs;
 
 mkShell rec {
   buildInputs = [
-    python38
+    stdenv.cc.cc.lib
+    clangStdenv
+    pythonPackages.jupyter_core
     pythonPackages.jupyterlab
-    pythonPackages.autopep8
-    pythonPackages.pandas
-    pythonPackages.psycopg2
-    pythonPackages.matplotlib
-    pythonPackages.seaborn
   ];
 }
